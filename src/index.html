@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link href="/dist/output.css" rel="stylesheet" />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+
+    <!-- Feel free to remove these styles or customize in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <div class="grid place-items-center place-content-center my-10">
+      <div class="card p-2 bg-card min-w-[150px] max-w-[250px] rounded-lg flex flex-col gap-3">
+        <div
+          class="card-image rounded-lg aspect-[1/1] hover-state"
+        /></div> 
+        <div class="text-white hover-state">Equilibrium #3429</div>
+        <div class="text-soft-blue text-[13px]">
+          Our Equilibrium collection promotes balance and calm.
+        </div>
+        <div class="flex justify-between">
+          <div class="text-cyan text-[10px] font-bold flex gap-1 items-center">
+            <img src="../images/icon-ethereum.svg" alt=""> 0.041 ETH
+          </div>
+          <div class="text-soft-blue flex gap-1 items-center text-[10px]">
+            <img src="../images/icon-clock.svg" alt="A small clock icon"> 3 days left
+          </div>
+        </div>
+        <hr class="border-soft-blue opacity-25">
+
+        <div class="text-soft-blue flex text-[10px] items-center">
+          <img src="../images/image-avatar.png" alt="" class="rounded-full border mr-2 border-white w-5 h-5"> Creation of <span class="text-white hover-state">&nbspJules Wyvern</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-soft-blue">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#" class="text-cyan">Abd Sab</a>.
+    </div>
+  </body>
+</html>
